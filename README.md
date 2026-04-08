@@ -7,13 +7,29 @@
 We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. 
 
 ```
-prompt = "
+prompt = """
+Generate a personalized financial report for the following client:
+
+Date: {report_date}
+Client Name: {client_name}
+Account ID: {account_id}
+Current Balance: ${balance:,.2f}
+Yesterday's Account Performance: {yesterday_performance:+.2f}%
+Past 1 Month Account Performance: {month_performance:+.2f}%
+Year to Date Account Performance: {ytd_performance:+.2f}%
+
+
+{market_overview_str}
+
 Provide a concise and professional summary, highlighting key performance metrics and mentioning the general market trend from the provided market overview, using the returns generated from dataframe 'returns', set all performance numbers to 1 decimal place. Combine both the summary of the account and the market indexes
 
 Do not make any investment recommendations or future predictions.
 
-Remove all the stars from the formatting as this will be in clean text, unless it is the title of the header
-"
+Remove all the stars from the formatting as this will be in clean text, unless it is the title of the header.
+
+Latest News Headlines:
+{headlines}
+"""
 
 GEMINI_API_KEY = userdata.get('GEMINI_API_KEY')
 genai.configure(api_key=GEMINI_API_KEY)
