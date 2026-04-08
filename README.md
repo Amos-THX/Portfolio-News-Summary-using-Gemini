@@ -8,5 +8,6 @@
 
 ## News Summary: Top Headlines from Reuters
 We utilize Google search's results for Reuters top headlines to retrieve relevant market headlines for the day. For business scale, a direct API call to Reuters will be necessary.
+![alt text](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/Reuters_google_search.png?raw=true)
 
 ## 
