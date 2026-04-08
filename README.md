@@ -3,11 +3,13 @@
 ## **By feeding information of multiple accounts, and index returns from Yahoo Finance, we utilize the Google Gemini LLM to generate a daily portfolio and news summary**
 
 
+> [!NOTE]
+>  We are augmenting the response with a real-time news headline update from Reuters.
+
 ## **Gemini LLM Generation for Client Accounts**
 We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters.
 
-> [!NOTE]
->  We are augmenting the response with a real-time news headline update from Reuters.
+
 
 ```
 prompt = """
