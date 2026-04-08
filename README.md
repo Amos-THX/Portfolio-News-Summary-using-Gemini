@@ -9,7 +9,7 @@
 ## **Gemini LLM Generation for Client Accounts**
 We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters.
 
-> ** _[NOTE]_ **
+> **_[NOTE]_**
 >  We are augmenting the response with a real-time news headline update from Reuters.
 
 ```
