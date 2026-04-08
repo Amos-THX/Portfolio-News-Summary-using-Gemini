@@ -4,7 +4,7 @@
 
 
 ## **Gemini LLM Generation for Multiple Client Accounts**
-We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. 
+We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. We are augmenting the response with a real-time news headline update.
 
 ```
 prompt = """
@@ -33,7 +33,7 @@ Latest News Headlines:
 
 GEMINI_API_KEY = userdata.get('GEMINI_API_KEY')
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-2.5-flash') # Changed from 'gemini-pro'
+model = genai.GenerativeModel('gemini-2.5-flash') #Using an earlier model
 response = model.generate_content(prompt)
 ```
 
