@@ -6,10 +6,20 @@
 ## **Gemini LLM Generation for Multiple Client Accounts**
 We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. 
 
+```
+prompt = "
+Provide a concise and professional summary, highlighting key performance metrics and mentioning the general market trend from the provided market overview, using the returns generated from dataframe 'returns', set all performance numbers to 1 decimal place. Combine both the summary of the account and the market indexes
+
+Do not make any investment recommendations or future predictions.
+
+Remove all the stars from the formatting as this will be in clean text, unless it is the title of the header
+"
+
 GEMINI_API_KEY = userdata.get('GEMINI_API_KEY')
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash') # Changed from 'gemini-pro'
 response = model.generate_content(prompt)
+```
 
 ## **News Summary: Top Headlines from Reuters**
 We utilize Google Search's results for Reuters top headlines to retrieve relevant market headlines for the day. For business scale, a direct API call to Reuters might be necessary. 
