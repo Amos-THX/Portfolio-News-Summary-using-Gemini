@@ -3,11 +3,9 @@
 
 ## **By feeding information of multiple accounts, and index returns from Yahoo Finance, we utilize the Google Gemini LLM to generate a daily portfolio and news summary**
 
-
-
-
 ## **Gemini LLM Generation for Client Accounts**
-We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters.
+We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. This automation process saves time for RMs, while adding a layer of engagement with the latest market news to keep clients up to date.
+![alt text](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/sampleoutput_llm.png?raw=true)
 
 > **_[NOTE]_**
 >  We are augmenting the response with a real-time news headline update from Reuters.
@@ -46,7 +44,7 @@ response = model.generate_content(prompt)
 ## **News Summary: Top Headlines from Reuters**
 We utilize the *_feedparser_* package to read Google Search's results for Reuters top headlines to retrieve relevant market headlines for the day. For business scale, a direct API call to Reuters might be necessary. 
 
-In this example, we are retrieving the relevant market headlines on 8th Apr 2026, when Trump had just announced a ceasefire with Iran. We are able to generate a list of headlines from the markets which helps clients get up to speed quickly on the latest world news, and be able to read in depth with a click of the button.
+In this example, we are retrieving the relevant market headlines on 16th Apr 2026. We are able to generate a list of headlines from the markets which helps clients get up to speed quickly on the latest world news, and be able to read in depth with a click of the button.
 
 ![alt text](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/Reuters_google_search.png?raw=true)
 
