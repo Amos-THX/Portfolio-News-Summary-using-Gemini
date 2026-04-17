@@ -1,4 +1,4 @@
-# **Project: Build a daily portfolio insights + market headlines pipeline by leveraging Gemini LLM alongside the Google Search API.**
+# **Project: Build a daily portfolio insights using LLM + augmenting with latest market headlines**
 
 
 ## **By feeding information of multiple accounts, and index returns from Yahoo Finance, we utilize the Google Gemini LLM to generate a daily portfolio and news summary**
