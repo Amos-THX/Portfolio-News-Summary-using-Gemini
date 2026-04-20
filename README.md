@@ -43,7 +43,7 @@ response = model.generate_content(prompt)
 ```
 
 ## **News Summary: Top Headlines from Reuters**
-We utilize the *_feedparser_* package to read Google Search's results for Reuters top headlines to retrieve relevant market headlines for the day. For business scale, a direct API call to Reuters might be necessary. 
+We utilize the *_feedparser_* package to read Google Search's results for Reuters top headlines to retrieve relevant market headlines for the day. For enterprise-scale deployments or more granular analysis of article-level tokens, direct integration with the Reuters API may be required.
 
 In this example, we are retrieving the relevant market headlines on 16th Apr 2026. We are able to generate a list of headlines from the markets which helps clients get up to speed quickly on the latest world news, and be able to read in depth with a click of the button.
 
