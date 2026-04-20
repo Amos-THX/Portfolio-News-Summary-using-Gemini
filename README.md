@@ -1,4 +1,4 @@
-# **Project: Build a daily portfolio insights using LLM + augmenting with latest market headlines**
+# **Project: LLM-powered tool that transforms raw portfolio and market data into clear, daily insights by combining account performance, index benchmarks, and live news.**
 
 
 ## **By feeding information of multiple accounts, and index returns from Yahoo Finance, we utilize the Google Gemini LLM to generate a daily portfolio and news summary**
