@@ -54,6 +54,6 @@ In this example, we are retrieving the relevant market headlines on 16th Apr 202
 >  Utilized Gemini LLM to generate parts of the script.
 
 Please refer to the following link for the full script.
-![alt text](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/Daily_Market_Updates_by_LLM.ipynb)
+![Github Link](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/Daily_Market_Updates_by_LLM.ipynb)
 
 
