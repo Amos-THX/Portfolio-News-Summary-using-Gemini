@@ -6,7 +6,7 @@ We utilise the Gemini LLM, and using each client's portfolio returns and positio
 >  We are augmenting the response with a real-time news headline update from Reuters.
 
 
-## Input prompt into Gemini LLM
+## Input Portfolio Returns Prompt into Gemini LLM for Summary Generation
 Implement a data pipeline to ingest portfolio data and returns, transform them into a structured prompt, and feed the input into the Gemini LLM for analysis and insight generation.
 
 ```
@@ -53,6 +53,6 @@ In this example, we are retrieving the relevant market headlines on 16th Apr 202
 >  Utilized Gemini LLM to generate parts of the script.
 
 Please refer to the following link for the full script.
-![Github Link](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/Daily_Market_Updates_by_LLM.ipynb)
+[Github Link](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/Daily_Market_Updates_by_LLM.ipynb)
 
 
