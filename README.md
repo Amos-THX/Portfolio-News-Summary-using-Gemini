@@ -1,4 +1,4 @@
-# **Project: LLM-powered tool that transforms raw portfolio and market data into clear, daily insights by combining account performance, index benchmarks, and live news.**
+# **Project: LLM-powered data piepline that transforms raw portfolio and market data into clear, daily insights by combining account performance, index benchmarks, and live news.**
 
 ## **Gemini LLM Generation for Client Accounts**
 We utilise the Gemini LLM, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. This automation process saves time for RMs, while adding a layer of engagement with the latest market news to keep clients up to date.
