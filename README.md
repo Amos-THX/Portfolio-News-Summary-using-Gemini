@@ -4,7 +4,7 @@
 ## **By feeding information of multiple accounts, and index returns from Yahoo Finance, we utilize the Google Gemini LLM to generate a daily portfolio and news summary**
 
 ## **Gemini LLM Generation for Client Accounts**
-We utilise the Gemini LLM model, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. This automation process saves time for RMs, while adding a layer of engagement with the latest market news to keep clients up to date.
+We utilise the Gemini LLM, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. This automation process saves time for RMs, while adding a layer of engagement with the latest market news to keep clients up to date.
 ![alt text](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/sampleoutput_llm.png?raw=true)
 
 > **_[NOTE]_**
