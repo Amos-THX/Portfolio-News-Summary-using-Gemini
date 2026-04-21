@@ -43,7 +43,7 @@ response = model.generate_content(prompt)
 ## **News Summary: Top Headlines from Reuters**
 We utilize the *feedparser* package to read Google Search's results for Reuters top headlines to retrieve relevant market headlines for the day. For enterprise-scale deployments or more granular analysis of article-level tokens, direct integration with the Reuters API may be required.
 
-In this example, we are retrieving the relevant market headlines on 16th Apr 2026. We are able to generate a list of headlines from the markets which helps clients get up to speed quickly on the latest world news, and be able to read in depth with a click of the button.
+In this example, we are retrieving the relevant market headlines on 21st Apr 2026. We are able to generate a list of headlines from the markets which helps clients get up to speed quickly on the latest world news.
 
 ![alt text](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/Reuters_google_search.png?raw=true)
 
