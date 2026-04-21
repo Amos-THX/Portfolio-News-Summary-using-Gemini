@@ -1,6 +1,6 @@
 ## **Gemini LLM Generation for Client Accounts**
 We utilise the Gemini LLM, and using each client's portfolio returns and positions as the input prompt, we will generate a summary of the portfolio returns and provide the latest market headline news from Reuters. This automation process saves time for RMs, while adding a layer of engagement with the latest market news to keep clients up to date.
-![alt text](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini/blob/main/sampleoutput_llm.png?raw=true)
+![alt text](https://github.com/Amos-THX/Portfolio-News-Summary-using-Gemini-LLM/blob/main/sampleoutput_llm.png?raw=true)
 
 > **_[NOTE]_**
 >  We are augmenting the response with a real-time news headline update from Reuters.
