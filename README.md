@@ -7,7 +7,7 @@ We utilise the Gemini LLM, and using each client's portfolio returns and positio
 
 
 ## Input Portfolio Returns Prompt into Gemini LLM for Summary Generation
-Implement a data pipeline to ingest portfolio data and returns, transform them into a structured prompt, and feed the input into the Gemini LLM for analysis and insight generation.
+Implement a data pipeline to ingest portfolio data and returns, transform them into a structured prompt, and feed the input into the Gemini LLM for analysis and insight generation. Multiple client accounts can be input into the LLM with a simple *for* loop. The response is retreived, augmented with the latest news headlines, and saved.
 
 ```
 prompt = """
